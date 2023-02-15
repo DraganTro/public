@@ -12,6 +12,41 @@ body * {
     
 }
 
+h2.color {
+    color: #3b8e46;
+    font-family: 'Syne';
+    font-weight: 800;
+    
+}
+
+h3.color {
+    color: #3b8e46;
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 30px;
+}
+
+h3.title-comments {
+    color: #3b8e46;
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 30px;
+}
+
+h4.font-les-gouts {
+    color: #d2776a;
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+p.font-first-text {
+    font-family: 'Syne';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
 /* Header */
 
 #site-header {
@@ -23,8 +58,24 @@ body * {
 }
 
 
+
+
 /* Footer  */
 
 #site-footer {
+    padding: 20px;
+    text-align: center;
     background-color: white;
-}
+ }
+
+ #site-footer a {
+    color: black;
+ }
+
+ #site-footer a:hover {
+    text-decoration: none;
+ }
+
+ 
+
+ 

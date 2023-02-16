@@ -57,7 +57,14 @@ p.font-first-text {
     display: none;
 }
 
-
+.background-red {
+    color: white; /* texte blanc */
+    background-color: red; /* fond rouge */
+    border: 2px solid black; /* bordure noire de 2 pixels */
+    margin: 0px; /* marge de 10 pixels autour de l'élément */
+    padding: 20px; /* remplissage de 5 pixels à l'intérieur de l'élément */
+    float: right; /* positionnement à droite */
+}
 
 
 /* Footer  */
@@ -68,7 +75,7 @@ p.font-first-text {
     background-color: white;
  }
 
- #site-footer a {
+ #site-footer.footer-custom {
     color: black;
  }
 

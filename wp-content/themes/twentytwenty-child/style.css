@@ -11,3 +11,118 @@ Tags: blog,one-column,custom-background,custom-colors,custom-logo,custom-menu,ed
 Version: 2.1.1676200264
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+
+
+/* Header */
+
+#site-header {
+    background-color: white!important;
+    
+}
+
+div.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry-title {
+    display: none;
+}
+
+li.menu-item a {
+    color: black;
+    text-decoration: none;
+}
+
+ul.menu {
+    list-style: none;
+    display: flex;
+    margin: 0%;   
+}
+
+.header-titles-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.menu-item-154 {
+    padding: 30px 50px 30px 50px;
+    background-color: #dc9f96;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+
+
+.menu-item-156 {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Body */
+
+body * {
+    font-family: 'Syne', sans-serif;
+    
+    
+}
+
+h2.color {
+    color: #3b8e46;
+    font-family: 'Syne';
+    font-weight: 800;
+    
+}
+
+h3.color {
+    color: #3b8e46;
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 30px;
+}
+
+h3.title-comments {
+    color: #3b8e46;
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 30px;
+}
+
+h4.font-les-gouts {
+    color: #d2776a;
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+p.font-first-text {
+    font-family: 'Syne';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+
+/* Footer  */
+
+#site-footer {
+    padding: 20px;
+    text-align: center;
+    background-color: white!important;
+    
+ }
+
+ .footer-custom {
+    color: black;
+    text-decoration: none;
+
+ }
+
+ 

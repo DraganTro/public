@@ -56,8 +56,6 @@ ul.menu {
     
 }
 
-
-
 .menu-item-156 {
     padding: 30px;
     font-size: 16px;
@@ -68,8 +66,7 @@ ul.menu {
 
 body * {
     font-family: 'Syne', sans-serif;
-    
-    
+    width: auto;
 }
 
 h2.color {
@@ -79,7 +76,7 @@ h2.color {
     
 }
 
-h3.color {
+h3 {
     color: #3b8e46;
     font-family: 'Syne';
     font-weight: 800;
@@ -93,22 +90,68 @@ h3.title-comments {
     font-size: 30px;
 }
 
-h4.font-les-gouts {
+h3.font-second-title {
     color: #d2776a;
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 30px;
+    
+}
+
+h4.name-comment {
+    color: #3b8e46;
     font-family: 'Syne';
     font-weight: 700;
     font-size: 30px;
+}
+
+h5.card-title {
+    color: white!important;
+    font-size: 48px!important;
+    font-weight: 800;
 }
 
 p.font-first-text {
     font-family: 'Syne';
     font-weight: 400;
     font-size: 20px;
+    
+}
+
+p.font-comments {
+    font-family: 'Syne';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.wp-block-button__link {
+    border-radius: 5px!important;
+    background-color: #e0b9b4!important;
+}
+
+.wp-block-columns.wp-container-5 {
+    background-color: #ece2da!important;
+    border-bottom-color: #DCD6C1!important;
+    border-bottom-width: 5px!important;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.wp-container-20 {
+    background-color: #ece2da!important;
+    padding: 5% 20% 5% 20%;
 }
 
 
 
+.wp-block-columns.wp-container-25 {
+    padding: 0 10% 0 10%;
+}
 
+.wp-block-media-text__media img {
+    max-width: 100%;
+}
 
 /* Footer  */
 

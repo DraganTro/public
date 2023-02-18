@@ -6,3 +6,5 @@ register_nav_menus( array(
 	'footer' => 'Bas de page',
 ) );
 
+
+

@@ -17,7 +17,7 @@ body.home {
     margin: 0%!important;
 }
 
-/* Header */
+/* Header of site */
 
 #site-header {
     background-color: white!important;
@@ -54,8 +54,7 @@ ul.menu {
     padding: 30px 50px 30px 50px;
     background-color: #dc9f96;
     font-size: 16px;
-    font-weight: 700;
-    
+    font-weight: 700;    
 }
 
 .menu-item-156 {
@@ -64,19 +63,16 @@ ul.menu {
     font-weight: 400;
 }
 
-/* Body */
+/* Body of home page */
 
 body * {
-    font-family: 'Syne', sans-serif;
-    
-    
+    font-family: 'Syne', sans-serif;   
 }
 
 h2.color {
     color: #3b8e46;
     font-family: 'Syne';
-    font-weight: 800;
-    
+    font-weight: 800;    
 }
 
 h3 {
@@ -117,8 +113,7 @@ h5.card-title {
 p.font-first-text {
     font-family: 'Syne';
     font-weight: 400;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
 p.font-comments {
@@ -156,9 +151,7 @@ p.font-comments {
     max-width: 100%;
 }
 
-
-
-/* Footer  */
+/* Footer of site */
 
 #site-footer {
     padding: 20px;
@@ -171,6 +164,24 @@ p.font-comments {
     color: black;
     text-decoration: none;
 
+ }
+
+
+ /* Body of contact page */
+ 
+ body.page-template {
+    margin: 0%!important;
+ }
+
+ div.entry-content {
+    background-color: #ece2da;
+ }
+
+ .first-title-contact {
+    color: #d2776a;
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 38px;
  }
 
  

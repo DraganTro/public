@@ -20,9 +20,38 @@ body.home {
 /* Header of site */
 
 #site-header {
-    background-color: white!important;
+    background-color: white!important;    
+}
+
+@media all and (min-width: 320px) and (max-width: 1024px){
+
+    div.header-inner {
+    display: flex;
+    flex-direction: column;
+}
+    ul.menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: #dc9f96;
+    }
+    ul {
+        padding-inline-start: 0;
+    }
+    div h2.color {
+        font-size: 60%;
+    }
+    h3.has-text-align-center {
+        font-size: 80%;
+    }
+    p.has-text-align-center.font-first-text {
+        font-size: 80%;
+    }
+    h3.has-text-align-center.font-second-title {
+        font-size: 80%;
+    }
     
 }
+
 
 div.header-inner {
     display: flex;
@@ -37,6 +66,7 @@ li.menu-item a {
     color: black;
     text-decoration: none;
 }
+
 
 ul.menu {
     list-style: none;
@@ -54,7 +84,8 @@ ul.menu {
     padding: 30px 50px 30px 50px;
     background-color: #dc9f96;
     font-size: 16px;
-    font-weight: 700;    
+    font-weight: 700;
+      
 }
 
 .menu-item-156 {

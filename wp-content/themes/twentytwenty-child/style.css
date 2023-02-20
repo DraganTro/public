@@ -189,6 +189,12 @@ p.font-comments {
     max-width: 100%;
 }
 
+div.first-block-picture {
+    width: 60%!important;  
+}
+
+
+
 /* Site footer */
 
 #site-footer {
@@ -223,3 +229,54 @@ p.font-comments {
  }
 
  
+
+ .form-contact {
+    display: flex;
+    justify-content: center;
+ }
+ 
+
+ /* Order page */
+
+ article.post-21 div.entry-content {
+    background-color: #3b8e46;
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ h2.title-order {
+    background-color: #3b8e46!important;
+    margin-top: 0!important;
+    color: white;
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 38px;
+    padding: 50px 0 20px 0;
+ }
+
+ .first-separator {
+    color: white!important;
+    max-width: 70%;
+ }
+
+ h3.subtitle-order {
+    color: white;
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 30px;
+ }
+
+ .is-layout-flex.wp-container-5.wp-block-columns.order-block-pics {
+    background-color: #3b8e46!important;
+    max-width: 70%;
+    
+ }
+
+ .order-font-strawberry, .order-font-grapefruit, .order-font-raspberry, .order-font-lemon {
+    font-family: 'Syne';
+    font-weight: 800;
+    font-size: 20px;
+    color: white!important;
+ }
+

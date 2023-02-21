@@ -88,6 +88,10 @@ ul.menu {
       
 }
 
+.menu-item-154 a {
+    color: white!important;
+}
+
 .menu-item-156 {
     padding: 30px;
     font-size: 16px;
@@ -111,6 +115,12 @@ h3 {
     font-family: 'Syne';
     font-weight: 800;
     font-size: 30px;
+}
+
+.home-first-block-text {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .color-second-title {
@@ -173,12 +183,19 @@ p.font-comments {
 
 .wp-block-columns.wp-container-5 {
     background-color: #ece2da!important;
+    border-bottom-color: #e0b9b4!important;
+    border-bottom: solid;
+    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 50% 5%;
+}
+
+.wp-block-group.wp-container-6 {
     
 }
 
 .wp-container-20 {
     background-color: #ece2da!important;
-    padding: 5% 20% 5% 20%;
+    margin: 5% 20%;
 }
 
 .wp-block-columns.wp-container-25 {
@@ -187,10 +204,6 @@ p.font-comments {
 
 .wp-block-media-text__media img {
     max-width: 100%;
-}
-
-div.first-block-picture {
-    width: 60%!important;  
 }
 
 
@@ -276,7 +289,65 @@ div.first-block-picture {
  .order-font-strawberry, .order-font-grapefruit, .order-font-raspberry, .order-font-lemon {
     font-family: 'Syne';
     font-weight: 800;
-    font-size: 20px;
+    font-size: 20px!important;
     color: white!important;
  }
 
+ /* Order quantity */
+
+ #quantity {
+    max-width: 50px;
+    height: 54px;
+    border-radius: 5px 0 0 5px;
+    border-style: none;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+
+ }
+
+ #plus {
+    width: 30px;
+    height: 27px;
+    background-color: #dc9f96;
+    border: none;
+    border-radius: 0 5px 0 0;
+    font-size: 20px;
+    font-weight: 400;   
+ }
+
+ #minus {
+    width: 30px;
+    height: 29px;
+    background-color: #dc9f96;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-color: white;
+    border-radius: 0 0 5px 0;
+    font-size: 20px;
+    font-weight: 400;  
+ }
+
+ #submit {
+    width: 100px;
+    height: 54px;
+    background-color: #e0b9b4;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+ }
+
+ form.order {
+    display: flex;
+ }
+
+ div.plus-minus {
+    display: flex;
+    flex-direction: column;
+ }
+
+ 

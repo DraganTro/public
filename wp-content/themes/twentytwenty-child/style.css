@@ -94,8 +94,8 @@ ul.menu {
 
 .menu-item-156 {
     padding: 30px;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 /* Home page Body */
@@ -183,8 +183,8 @@ p.font-comments {
 
 .wp-block-columns.wp-container-5 {
     background-color: #ece2da!important;
-    border-bottom-color: #e0b9b4!important;
-    border-bottom: solid;
+    border-bottom-color: #D1C8A8!important;
+    border-bottom: solid 4px;
     border-bottom-left-radius: 50% 5%;
     border-bottom-right-radius: 50% 5%;
 }
@@ -230,22 +230,194 @@ p.font-comments {
     margin: 0%!important;
  }
 
- div.entry-content {
+ .first-block-contact {
     background-color: #ece2da;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    
+ }
+
+ .flower-pic {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+
+ }
+
+ .first-photo-contact, .second-photo-contact, .third-photo-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
 
  .first-title-contact {
+    text-align: center;
     color: #d2776a;
     font-family: 'Syne';
     font-weight: 800;
     font-size: 38px;
  }
 
+ .first-text-contact {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 25% 0 25%;
+ }
+
  
+ .team-title-font {
+    color: black;
+    font-size: 30px;
+    font-weight: 700; 
+ }
+
+ .team-name-font {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+ .team-job-font {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+ }
+
+.branch-pic {
+    position: absolute;
+    right: 50px;
+    top: 812px;
+}
+ 
+
+ .second-block-contact {
+    background-color: white!important;
+ }
+
+ div.team-block-photo {
+    margin: 0 15%;
+
+ }
+
+ .title-contact-form {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+ }
+
+ .block-title-contact {
+    background-color: #ece2da;
+    
+ }
 
  .form-contact {
     display: flex;
     justify-content: center;
+    background-color: #ece2da;  
+ }
+
+ input.wpcf7-form-control {
+    border: none;
+    border-radius: 7px;
+    height: 5em;
+    
+    margin-top: 10px;
+ }
+
+ .wpcf7-textarea {
+    border-radius: 7px;
+    border: none;
+    margin-top: 10px;
+    height: 20em;
+ }
+
+ .wpcf7-submit {
+    font-size: 15px;
+    font-weight: 400;
+    height: 5em!important;
+    background-color: #E0B9B4!important;
+    width: 60%;
+    margin-left: 20%;
+    height: 55px!important;
+ }
+
+ .block-title-contact label {
+    font-size: 20px;
+    font-weight: 400;
+ }
+
+ .block-bottles-contact {
+    background-color: #ece2da;
+ }
+
+ .drink-1 {
+    position: absolute;
+    left: 0px;
+    top: 2238px;
+ }
+
+ .drink-2 {
+    position: absolute;
+    top: 2238px;
+ }
+
+ .drink-3 {
+    position: absolute;
+    top: 2200px;
+ }
+
+ .drink-4 {
+    position: absolute;
+    top: 2200px;
+ }
+
+ .drink-5 {
+    position: absolute;
+    top: 2200px;
+ }
+
+ .drink-6 {
+    position: absolute;
+    top: 2100px;
+ }
+
+ .drink-7 {
+    position: absolute;
+    top: 2100px;
+ }
+
+ .drink-8 {
+    position: absolute;
+    top: 2100px;
+ }
+
+ .drink-9 {
+    position: absolute;
+    top: 2100px;
+ }
+
+ .drink-10 {
+    position: absolute;
+    top: 2100px;
+ }
+
+ .drink-11 {
+    position: absolute;
+    top: 2000px;
+ }
+
+ .five-block-bottle-1 {
+    background-color: #ece2da;
+ }
+
+ .five-block-bottle-2 {
+    background-color: #ece2da;
+ }
+ 
+ .six-block-bottle {
+    background-color: #ece2da;
  }
  
 

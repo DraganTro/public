@@ -489,22 +489,41 @@ p.font-comments {
  }
 
  .first-separator {
-    color: white;
-    max-width: 70%;
+    color: white!important;
+    width: 60%;
  }
+
+ .second-separator {
+   color: white!important;
+   width: 60%;
+}
 
  h3.subtitle-order {
     color: white;
     font-family: 'Syne';
     font-weight: 700;
     font-size: 30px;
+    align-self: flex-start!important;
+    margin-bottom: 0px;
+    margin-top: 30px;
+ }
+
+ #post-21 .wp-container-2 {
+   width: 60%;
+ }
+
+ div.subtitle-order-block {
+   display: flex;
+   width: 100%!important;
  }
 
  .is-layout-flex.wp-container-5.wp-block-columns.order-block-pics {
     background-color: #3b8e46!important;
-    
-    
  }
+
+.order-block-pics {
+   width: 60%;
+}
 
  .order-strawberry, .order-grapefruit, .order-raspberry, .order-lemon {
    align-items: center!important;
@@ -528,9 +547,14 @@ p.font-comments {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    align-self: center!important;
-
+    text-align: center;
  }
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	
+}
 
  #plus {
     width: 30px;
@@ -566,6 +590,10 @@ p.font-comments {
     margin-left: 20px;
  }
 
+ #submit:hover {
+   background-color: #c02e44 ;
+ }
+
  form.order {
     display: flex;
  }
@@ -575,4 +603,80 @@ p.font-comments {
     flex-direction: column;
  }
 
+ /* Mise en forme formulaire de commande */
+
+.title-order-block {
+   width: 60%;
+   margin-bottom: 0;
+}
+
+.font-title-order {
+   color: white;
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.font-title-order-2 {
+   color: white;
+   font-size: 30px;
+   font-weight: 700;
+   margin-left: 40px;
+}
+
+.form-order-block {
+   width: 60%;
+   margin-bottom: 80px; 
+}
+
+.row { 
+   display: flex!important;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   
+ }
+
+ .col-1 {
+   border-right: solid 1px white;
+   padding-right: 50px;
+ }
+
+.col-1 input.wpcf7-form-control { 
+   width: 28em;
+   
+ }
+
+ .col-2 input.wpcf7-form-control {
+   width: 28em;
+ }
+
+ .col-1 label, .col-2 label {
+   color: white;
+   font-size: 20px;
+   font-weight: 400;
+ }
+
+ .order-button {
+   display: flex;
+   justify-content: center;
+ }
+
+ .order-button .wpcf7-submit {
+   width: 15em;
+   font-size: 15px;
+   font-weight: 400;
+ }
+
+ .order-button input.wpcf7-submit:hover {
+   background-color: #c02e44!important;
+ }
+
+ .order-button p {
+   display: flex!important;
+ }
+
+@media (max-width: 600px) { .col-6 { width: 100%; } }
+
+input[type=“text”], input[type=“email”] { width: 100%; }
+
+input[type=“submit”] { margin-top: 20px; }
  

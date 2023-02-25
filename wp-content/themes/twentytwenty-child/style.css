@@ -90,6 +90,11 @@ body.home {
     .bottles-footer {
       width: 100%!important;
     }
+
+    .row {
+      display: flex!important;
+      flex-direction: column;
+    }
     
 }
 
@@ -389,6 +394,12 @@ p.font-comments {
 
  .block-title-contact {
     background-color: #ece2da; 
+    padding-bottom: 0px!important;
+    margin-bottom: 0px!important;
+ }
+
+ .master-block-contact {
+   margin-bottom: 0px!important;
  }
 
  .form-contact {
@@ -402,6 +413,8 @@ p.font-comments {
     border-radius: 7px;
     height: 5em; 
     margin-top: 10px;
+    margin-bottom: 0px!important;
+    padding-bottom: 0px!important;
  }
 
  .wpcf7-textarea {
@@ -433,80 +446,130 @@ p.font-comments {
    top: -250px;
    left: 475px;
    z-index: 1;
+   max-width: fit-content;
 }
 
-
-
  .block-bottles-contact {
-    background-color: #ece2da;
+    background-color: #ece2da!important;
  }
 
  .drink-1 {
     position: absolute;
     left: 0px;
-    top: 2238px;
+    top: 1906px;
  }
 
  .drink-2 {
     position: absolute;
-    top: 2238px;
+    top: 1886px;
+    left: 43px;
  }
 
  .drink-3 {
     position: absolute;
-    top: 2200px;
+    top: 1906px;
+    left: 134px;
  }
 
  .drink-4 {
     position: absolute;
-    top: 2200px;
+    top: 1925px;
+    left: 224px;
  }
 
  .drink-5 {
     position: absolute;
-    top: 2200px;
+    top: 1906px;
+    left: 315px;
  }
 
  .drink-6 {
     position: absolute;
-    top: 2100px;
+    top: 1885px;
+    left: 407px;
  }
 
  .drink-7 {
     position: absolute;
-    top: 2100px;
+    top: 1886px;
+    left: 588px;
  }
 
  .drink-8 {
     position: absolute;
-    top: 2100px;
+    top: 1926px;
+    left: 498px;
  }
 
  .drink-9 {
     position: absolute;
-    top: 2100px;
+    top: 1906px;
+    left: 680px;
  }
 
  .drink-10 {
     position: absolute;
-    top: 2100px;
+    top: 1886px;
+    left: 773px;
  }
 
  .drink-11 {
     position: absolute;
-    top: 2000px;
+    top: 1906px;
+    left: 866px;
+ }
+
+ .drink-12 {
+   position: absolute;
+   top: 1926px;
+   left: 959px;
+ }
+
+ .drink-13 {
+   position: absolute;
+   top: 1906px;
+   left: 1050px;
+ }
+
+ .drink-14 {
+   position: absolute;
+   top: 1886px;
+   left: 1142px;
+ }
+
+ .drink-15 {
+   position: absolute;
+   top: 1926px;
+   left: 1234px;
+ }
+
+ .drink-16 {
+   position: absolute;
+   top: 1906px;
+   left: 1326px;
+ }
+
+ .rang-1-bottles {
+   background-color: #ece2da!important;
+   padding: 0px 0px!important;
  }
 
  .five-block-bottle-1 {
-    background-color: #ece2da;
+    background-color: #ece2da!important;
+    margin: 0px 0px!important;
+    padding: 0px 0px!important;
  }
 
  .five-block-bottle-2 {
-    background-color: #ece2da;
+    background-color: #ece2da!important;
+    margin: 0px 0px!important;
+    padding: 0px 0px!important;
  }
  
  .six-block-bottle {
-    background-color: #ece2da;
+    background-color: #ece2da!important;
+    margin: 0px 0px!important;
+    padding: 0px 0px!important;
  }
  
 

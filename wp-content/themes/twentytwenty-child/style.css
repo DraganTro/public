@@ -37,6 +37,15 @@ body.home {
     ul {
         padding-inline-start: 0;
     }
+    
+    .menu-item-154, .menu-item-156 {
+      padding: 0.5em 0.5em!important;
+    }
+
+    .custom-logo {
+      padding: 1em 1em;
+    }
+
     div h2.color {
         font-size: 60%;
     }
@@ -47,7 +56,39 @@ body.home {
         font-size: 80%;
     }
     h3.has-text-align-center.font-second-title {
-        font-size: 80%;
+        font-size: 90%!important;
+    }
+
+    h3 {
+      font-size: 90%!important;
+    }
+
+    p {
+      font-size: 80%;
+    }
+
+    .home-first-block-text {
+      padding-bottom: 0!important;   
+    }
+
+    .fruit-font {
+      font-size: 95%!important;
+    }
+
+    figure {
+      width: 60%!important;
+    }
+
+    h4 {
+      font-size: 90%!important;
+    }
+
+    p.font-comments {
+      font-size: 80%!important;
+    }
+
+    .bottles-footer {
+      width: 100%!important;
     }
     
 }

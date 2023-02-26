@@ -95,7 +95,47 @@ body.home {
       display: flex!important;
       flex-direction: column;
     }
-    
+
+    .flower-pic, .second-flower-contact, .branch-pic {
+      display: none;
+    }
+
+    .first-title-contact {
+      font-size: 95%!important;
+    }
+
+    .first-text-contact {
+      font-size: 90%!important;
+    }
+
+    .team-name-font, .team-job-font, .block-title-contact label {
+      font-size: 90%!important;
+    }
+
+    .drink-1, .drink-2, .drink-3, .drink-4, .drink-5, .drink-6, .drink-7, .drink-8, .drink-9, .drink-10, .drink-11, .drink-12, .drink-13, .drink-14, .drink-15, .drink-16 {
+      display: none;
+    }
+
+    .five-block-bottle-2, .rang-1-bottles, .six-block-bottle {
+      display: none!important;
+    }
+
+    .first-wide-block-contact {
+      padding-top: 0!important;
+    }
+
+    h2.title-order, .font-title-order, .font-title-order-2, .col-1 label, .col-2 label {
+      font-size: 95%!important;
+    }
+
+    .col-1 input, .col-2 input {
+      width: 95%!important;
+      height: auto!important;
+    }
+
+    .col-1 {
+      border-right: none!important;
+    }
 }
 
 

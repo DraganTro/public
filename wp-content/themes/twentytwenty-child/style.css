@@ -46,6 +46,8 @@ body.home {
       padding: 1em 1em;
     }
 
+    /* Home Page */
+
     div h2.color {
         font-size: 60%;
     }
@@ -160,6 +162,26 @@ ul.menu {
     margin: 0%;   
 }
 
+a.admin {
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   font-weight: 400;
+   width: 8em;
+   text-align: center;
+ }
+
+ a.admin:hover {
+   font-weight: 500;
+ }
+
+ li {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+ }
+
 .header-titles-wrapper {
     display: flex;
     align-items: center;
@@ -170,7 +192,8 @@ ul.menu {
     padding: 30px 50px 30px 50px;
     background-color: #dc9f96;
     font-size: 16px;
-    font-weight: 700;     
+    font-weight: 700; 
+    order: 1;    
 }
 
 .menu-item-154:hover {

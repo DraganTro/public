@@ -42,6 +42,10 @@ body.home {
       padding: 0.5em 0.5em!important;
     }
 
+    a.admin {
+      margin: 0.5em!important;
+    }
+
     .custom-logo {
       padding: 1em 1em;
     }
@@ -89,10 +93,6 @@ body.home {
       font-size: 80%!important;
     }
 
-    .bottles-footer {
-      width: 100%!important;
-    }
-
     .row {
       display: flex!important;
       flex-direction: column;
@@ -112,14 +112,6 @@ body.home {
 
     .team-name-font, .team-job-font, .block-title-contact label {
       font-size: 90%!important;
-    }
-
-    .drink-1, .drink-2, .drink-3, .drink-4, .drink-5, .drink-6, .drink-7, .drink-8, .drink-9, .drink-10, .drink-11, .drink-12, .drink-13, .drink-14, .drink-15, .drink-16 {
-      display: none;
-    }
-
-    .five-block-bottle-2, .rang-1-bottles, .six-block-bottle {
-      display: none!important;
     }
 
     .first-wide-block-contact {
@@ -167,19 +159,18 @@ a.admin {
    color: black;
    font-size: 16px;
    font-weight: 400;
-   width: 8em;
-   text-align: center;
+   margin: 30px;
  }
 
  a.admin:hover {
-   font-weight: 500;
+   font-size: 13px;
+   font-weight: 700;
  }
 
  li {
    display: flex;
    align-items: center;
    justify-content: center;
-    
  }
 
 .header-titles-wrapper {
@@ -219,7 +210,7 @@ a.admin {
 /* Home page Body */
 
 body * {
-    font-family: 'Syne', sans-serif;   
+    font-family: 'Syne', sans-serif;
 }
 
 .first-block-bottle {   
@@ -364,19 +355,35 @@ p.font-comments {
 /* Site footer */
 
 #site-footer {
-    padding: 20px;
     text-align: center;
-    background-color: white!important;
-    
+    background-color: white;
+    margin-bottom: 20px; 
+     
+ }
+
+ .text-footer {
+   background-color: white;
+   padding-top: 20px;
  }
 
  .footer-custom {
     color: black;
     text-decoration: none;
-
  }
 
+ .bottles-planty {
+   max-width: 100%;
+ }
 
+ .page-id-22 #site-footer .bottles-planty {
+   background-color: #ece2da!important;
+ }
+
+ .page-id-21 #site-footer .bottles-planty {
+   display: none;
+ }
+
+ 
  /* Contact page Body */
  
  body.page-template {
@@ -393,8 +400,8 @@ p.font-comments {
 
  .flower-pic {
     position: absolute;
-    top: 150px;
-    left: 100px;
+    top: 15%;
+    left: 10%;
  }
 
  .first-photo-contact, .second-photo-contact, .third-photo-contact {
@@ -437,8 +444,8 @@ p.font-comments {
 
 .branch-pic {
     position: absolute;
-    right: 50px;
-    top: 812px;
+    right: 5%;
+    top: 100%;
 }
  
  .second-block-contact {
@@ -462,7 +469,7 @@ p.font-comments {
  }
 
  .master-block-contact {
-   margin-bottom: 0px!important;
+  margin-bottom: 0;
  }
 
  .form-contact {
@@ -506,136 +513,13 @@ p.font-comments {
 
  .second-flower-contact {
    position: relative;
-   top: -250px;
-   left: 475px;
+   top: -25%;
+   left: 33.5%;
    z-index: 1;
    max-width: fit-content;
 }
 
- .block-bottles-contact {
-    background-color: #ece2da!important;
- }
-
- .drink-1 {
-    position: absolute;
-    left: 0px;
-    top: 1906px;
- }
-
- .drink-2 {
-    position: absolute;
-    top: 1886px;
-    left: 43px;
- }
-
- .drink-3 {
-    position: absolute;
-    top: 1906px;
-    left: 134px;
- }
-
- .drink-4 {
-    position: absolute;
-    top: 1925px;
-    left: 224px;
- }
-
- .drink-5 {
-    position: absolute;
-    top: 1906px;
-    left: 315px;
- }
-
- .drink-6 {
-    position: absolute;
-    top: 1885px;
-    left: 407px;
- }
-
- .drink-7 {
-    position: absolute;
-    top: 1886px;
-    left: 588px;
- }
-
- .drink-8 {
-    position: absolute;
-    top: 1926px;
-    left: 498px;
- }
-
- .drink-9 {
-    position: absolute;
-    top: 1906px;
-    left: 680px;
- }
-
- .drink-10 {
-    position: absolute;
-    top: 1886px;
-    left: 773px;
- }
-
- .drink-11 {
-    position: absolute;
-    top: 1906px;
-    left: 866px;
- }
-
- .drink-12 {
-   position: absolute;
-   top: 1926px;
-   left: 959px;
- }
-
- .drink-13 {
-   position: absolute;
-   top: 1906px;
-   left: 1050px;
- }
-
- .drink-14 {
-   position: absolute;
-   top: 1886px;
-   left: 1142px;
- }
-
- .drink-15 {
-   position: absolute;
-   top: 1926px;
-   left: 1234px;
- }
-
- .drink-16 {
-   position: absolute;
-   top: 1906px;
-   left: 1326px;
- }
-
- .rang-1-bottles {
-   background-color: #ece2da!important;
-   padding: 0px 0px!important;
- }
-
- .five-block-bottle-1 {
-    background-color: #ece2da!important;
-    margin: 0px 0px!important;
-    padding: 0px 0px!important;
- }
-
- .five-block-bottle-2 {
-    background-color: #ece2da!important;
-    margin: 0px 0px!important;
-    padding: 0px 0px!important;
- }
  
- .six-block-bottle {
-    background-color: #ece2da!important;
-    margin: 0px 0px!important;
-    padding: 0px 0px!important;
- }
- 
-
  /* Order page */
 
  article.post-21 div.entry-content {
@@ -763,6 +647,7 @@ input::-webkit-outer-spin-button {
 
  form.order {
     display: flex;
+    margin-top: 15px;
  }
 
  div.plus-minus {

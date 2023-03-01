@@ -17,11 +17,9 @@ body.home {
     margin: 0%!important;
 }
 
-/* Site Header */
 
-#site-header {
-    background-color: white!important;    
-}
+
+/* Responsive with media queries */
 
 @media all and (min-width: 320px) and (max-width: 1024px){
 
@@ -133,6 +131,12 @@ body.home {
 }
 
 
+/* Site Header */
+
+#site-header {
+   background-color: white!important;    
+}
+
 div.header-inner {
     display: flex;
     justify-content: space-between;
@@ -159,7 +163,6 @@ a.admin {
    color: black;
    font-size: 16px;
    font-weight: 400;
-   margin: 30px;
  }
 
  a.admin:hover {
@@ -173,6 +176,14 @@ a.admin {
    justify-content: center;
  }
 
+ .menu-admin {
+   padding: 30px 50px;
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   font-weight: 400;
+ }
+
 .header-titles-wrapper {
     display: flex;
     align-items: center;
@@ -180,7 +191,7 @@ a.admin {
 }
 
 .menu-item-154 {
-    padding: 30px 50px 30px 50px;
+    padding: 30px 50px;
     background-color: #dc9f96;
     font-size: 16px;
     font-weight: 700; 
@@ -206,6 +217,12 @@ a.admin {
    font-weight: 700;
 }
 
+/* Active menu current page */
+li.current_page_item.active {
+   font-size: 13px!important;
+   font-weight: 700!important;
+}
+
 
 /* Home page Body */
 
@@ -215,7 +232,7 @@ body * {
 
 .first-block-bottle {   
    background-color: #ece2da!important;
-   border-bottom-color: #D1C8A8!important;
+   border-bottom-color: #E3D9D0!important;
    border-bottom: solid 10px;
    border-bottom-left-radius: 50% 5%;
    border-bottom-right-radius: 50% 5%;
@@ -470,12 +487,14 @@ p.font-comments {
 
  .master-block-contact {
   margin-bottom: 0;
+  display: flex!important;
+  flex-direction: column;
  }
 
  .form-contact {
     display: flex;
     justify-content: center;
-    background-color: #ece2da;  
+    background-color: #ece2da;
  }
 
  input.wpcf7-form-control {
@@ -513,10 +532,17 @@ p.font-comments {
 
  .second-flower-contact {
    position: relative;
-   top: -25%;
+   bottom: 860%;
    left: 33.5%;
    z-index: 1;
    max-width: fit-content;
+   height: 1em;
+}
+
+.form-contact-and-flower {
+   background-color: #ece2da;
+   margin-bottom: 0px!important;
+   padding-bottom: 0px!important;
 }
 
  
@@ -601,12 +627,11 @@ p.font-comments {
     text-align: center;
  }
 
-input::-webkit-inner-spin-button,
-input::-webkit-outer-spin-button { 
+ input::-webkit-inner-spin-button,
+ input::-webkit-outer-spin-button { 
 	-webkit-appearance: none;
-	
-}
-
+ }
+ 
  #plus {
     width: 30px;
     height: 27px;

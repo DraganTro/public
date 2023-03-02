@@ -40,8 +40,8 @@ body.home {
       padding: 0.5em 0.5em!important;
     }
 
-    a.admin {
-      margin: 0.5em!important;
+    .menu-admin {
+      padding: 0!important;
     }
 
     .custom-logo {
@@ -50,9 +50,14 @@ body.home {
 
     /* Home Page */
 
-    div h2.color {
-        font-size: 60%;
+    .first-bottle-planty {
+      width: fit-content;
     }
+
+    div h2.color {
+        font-size: 50%;
+    }
+
     p.has-text-align-center.color-second-title {
         font-size: 80%!important;
     }
@@ -79,12 +84,12 @@ body.home {
       font-size: 95%!important;
     }
 
-    figure {
-      width: 60%!important;
-    }
-
     h4 {
       font-size: 90%!important;
+    }
+
+    .wp-block-media-text__media img {
+      width: 60%!important;
     }
 
     p.font-comments {
@@ -114,6 +119,11 @@ body.home {
 
     .first-wide-block-contact {
       padding-top: 0!important;
+    }
+
+    .order-font-raspberry {
+      margin-left: 12%;
+      margin-right: 12%;
     }
 
     h2.title-order, .font-title-order, .font-title-order-2, .col-1 label, .col-2 label {
@@ -325,7 +335,7 @@ p.font-comments {
    background-color: #ece2da!important;
 }
 
-/* Bloc images différents goûts */
+/* Bloc images different taste */
 
 .first-block-picture {
    margin-left: 21%!important;
@@ -341,6 +351,11 @@ p.font-comments {
    color: white!important;
    font-size: 48px;
    font-weight: 800;
+}
+
+.raspberry {
+   margin-left: 10%;
+   margin-right: 10%;
 }
 
 .wp-container-19 {
@@ -613,6 +628,11 @@ p.font-comments {
     color: white!important;
  }
 
+ .order-font-raspberry {
+   margin-left: 12%;
+   margin-right: 12%;
+ }
+
  /* Order quantity */
 
  #quantity {
@@ -757,3 +777,96 @@ input[type=“text”], input[type=“email”] { width: 100%; }
 
 input[type=“submit”] { margin-top: 20px; }
  
+
+/* test formulaire quantité */
+
+.cp_cff_professional {
+   background-color: #3b8e46!important;
+   background: #3b8e46!important;
+   width: 192px!important;
+   padding: 0!important;
+   
+}
+
+.cff-spinner-down {
+   background-color: #dc9f96!important;
+   background: #dc9f96!important;
+   height: 27px;
+   width: 55px!important;
+   position: relative;
+   top: 27px;
+   
+   border-radius: 0 0 5px 0!important;
+   border-top: solid 1px white!important;
+   font-family: 'Syne'!important;
+   font-size: 20px!important;
+   padding: 0!important;
+   text-shadow: none!important;
+   font-weight: 400!important;
+}
+
+.cff-spinner-up {
+   background-color: #dc9f96!important;
+   background: #dc9f96!important;
+   height: 27px; 
+   width: 55px!important;
+   position: relative;
+   right: 33px; 
+   border-radius: 0 5px 0 0!important;
+   border-bottom: solid 1px white!important;
+   font-family: 'Syne'!important;
+   font-size: 20px!important;
+   padding: 0!important;
+   text-shadow: none!important;
+   font-weight: 400!important;
+}
+
+#fieldname3_1 {
+   max-width: 55px!important;
+   height: 54px;
+   background: white!important;
+   border: none!important;
+   order: -1;
+   border-radius: 5px 0 0 5px!important;
+   color: black!important;
+   font-family: 'Inter';
+   font-size: 16px;
+}
+
+body #fbuilder .cff-spinner input {
+   margin: 0!important;
+   padding-left: 20%!important;
+}
+
+#fbuilder .fields:not(.cff-container-field) {
+   padding: 0!important;
+}
+
+#fbuilder .pbreak.pb0 {
+   display: flex!important;
+}
+
+#fbuilder .dfield {
+   display: flex!important;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+body #fbuilder .small {
+   display: flex;
+   width: auto!important;
+}
+
+.button-ok {
+   align-self: center;
+   width: 100px!important;
+   padding: 10px!important;
+   
+}
+
+#fieldname4_1 {
+   height: 54px;
+   width: 90px;
+   background: #E0B9B4!important;
+   padding: 0!important;
+}

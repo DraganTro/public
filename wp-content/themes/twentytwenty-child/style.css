@@ -13,10 +13,6 @@ Version: 2.1.1676200264
 
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
-body.home {
-    margin: 0%!important;
-}
-
 
 
 /* Responsive with media queries */
@@ -135,11 +131,28 @@ body.home {
       height: auto!important;
     }
 
-    .col-1 {
-      border-right: none!important;
+    .fruit-font {
+      margin-left: 12%;
+      margin-right: 12%;
+    }
+
+    .raspberry {
+      margin-left: 20%!important;
+      margin-right: 20%!important;
     }
 }
 
+@media screen and (min-width: 780px) and (max-width: 1280px) {
+   .order-block-pics {
+      width: 95%!important;
+   }
+}
+
+@media screen and (max-width: 1400px) {
+   .col-1 {
+      border-right: none!important;
+   }
+}
 
 /* Site Header */
 
@@ -234,7 +247,11 @@ li.current_page_item.active {
 }
 
 
-/* Home page Body */
+/* Home Body page */
+
+body.home {
+   margin: 0%!important;
+}
 
 body * {
     font-family: 'Syne', sans-serif;
@@ -335,7 +352,8 @@ p.font-comments {
    background-color: #ece2da!important;
 }
 
-/* Bloc images different taste */
+
+/* Block pictures different taste */
 
 .first-block-picture {
    margin-left: 21%!important;
@@ -382,41 +400,8 @@ p.font-comments {
     padding: 0 10% 0 10%;
 }
 
-
-
-/* Site footer */
-
-#site-footer {
-    text-align: center;
-    background-color: white;
-    margin-bottom: 20px; 
-     
- }
-
- .text-footer {
-   background-color: white;
-   padding-top: 20px;
- }
-
- .footer-custom {
-    color: black;
-    text-decoration: none;
- }
-
- .bottles-planty {
-   max-width: 100%;
- }
-
- .page-id-22 #site-footer .bottles-planty {
-   background-color: #ece2da!important;
- }
-
- .page-id-21 #site-footer .bottles-planty {
-   display: none;
- }
-
  
- /* Contact page Body */
+ /* Contact Body page */
  
  body.page-template {
     margin: 0%!important;
@@ -633,74 +618,8 @@ p.font-comments {
    margin-right: 12%;
  }
 
- /* Order quantity */
 
- #quantity {
-    max-width: 50px;
-    height: 54px;
-    border-radius: 5px 0 0 5px;
-    border-style: none;
-    font-size: 16px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
- }
-
- input::-webkit-inner-spin-button,
- input::-webkit-outer-spin-button { 
-	-webkit-appearance: none;
- }
- 
- #plus {
-    width: 30px;
-    height: 27px;
-    background-color: #dc9f96;
-    border: none;
-    border-radius: 0 5px 0 0;
-    font-size: 20px;
-    font-weight: 400;   
- }
-
- #minus {
-    width: 30px;
-    height: 29px;
-    background-color: #dc9f96;
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-    border-color: white;
-    border-radius: 0 0 5px 0;
-    font-size: 20px;
-    font-weight: 400;  
- }
-
- #submit {
-    width: 100px;
-    height: 54px;
-    background-color: #e0b9b4;
-    border-style: none;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: 400;
-    margin-left: 20px;
- }
-
- #submit:hover {
-   background-color: #c02e44 ;
- }
-
- form.order {
-    display: flex;
-    margin-top: 15px;
- }
-
- div.plus-minus {
-    display: flex;
-    flex-direction: column;
- }
-
- /* Mise en forme formulaire de commande */
+ /* Order form style */
 
 .title-order-block {
    width: 60%;
@@ -728,8 +647,7 @@ p.font-comments {
 .row { 
    display: flex!important;
    flex-wrap: nowrap;
-   justify-content: space-between;
-   
+   justify-content: space-between;  
  }
 
  .col-1 {
@@ -778,14 +696,13 @@ input[type=“text”], input[type=“email”] { width: 100%; }
 input[type=“submit”] { margin-top: 20px; }
  
 
-/* test formulaire quantité */
+/* Order quantity form */
 
 .cp_cff_professional {
    background-color: #3b8e46!important;
    background: #3b8e46!important;
    width: 192px!important;
-   padding: 0!important;
-   
+   padding: 0!important;  
 }
 
 .cff-spinner-down {
@@ -794,8 +711,7 @@ input[type=“submit”] { margin-top: 20px; }
    height: 27px;
    width: 55px!important;
    position: relative;
-   top: 27px;
-   
+   top: 27px; 
    border-radius: 0 0 5px 0!important;
    border-top: solid 1px white!important;
    font-family: 'Syne'!important;
@@ -821,7 +737,7 @@ input[type=“submit”] { margin-top: 20px; }
    font-weight: 400!important;
 }
 
-#fieldname3_1 {
+#fieldname3_1, #fieldname3_2, #fieldname3_3, #fieldname3_4 {
    max-width: 55px!important;
    height: 54px;
    background: white!important;
@@ -830,7 +746,7 @@ input[type=“submit”] { margin-top: 20px; }
    border-radius: 5px 0 0 5px!important;
    color: black!important;
    font-family: 'Inter';
-   font-size: 16px;
+   font-size: 16px; 
 }
 
 body #fbuilder .cff-spinner input {
@@ -849,24 +765,64 @@ body #fbuilder .cff-spinner input {
 #fbuilder .dfield {
    display: flex!important;
    flex-wrap: wrap;
-   justify-content: center;
+   justify-content: center;  
 }
 
 body #fbuilder .small {
    display: flex;
-   width: auto!important;
+   width: auto!important;  
 }
 
 .button-ok {
    align-self: center;
-   width: 100px!important;
+   width: 80px!important;
    padding: 10px!important;
-   
+   position: relative;
+   right: 15px;
 }
 
-#fieldname4_1 {
+#fieldname4_1, #fieldname4_2, #fieldname4_3, #fieldname4_4 {
    height: 54px;
-   width: 90px;
+   width: 85px;
    background: #E0B9B4!important;
-   padding: 0!important;
+   margin-top: 10px!important; 
+   font-family: 'Syne'!important; 
+   text-shadow: none!important;
+   font-weight: 400!important;
+   font-size: 15px!important;
+}
+
+#fieldname4_1:hover, #fieldname4_2:hover, #fieldname4_3:hover, #fieldname4_4:hover {
+   background-color: #c02e44!important;
+}
+
+
+/* Site footer */
+
+#site-footer {
+   text-align: center;
+   background-color: white;
+   margin-bottom: 20px;    
+}
+
+.text-footer {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.footer-custom {
+   color: black;
+   text-decoration: none;
+}
+
+.bottles-planty {
+  max-width: 100%;
+}
+
+.page-id-22 #site-footer .bottles-planty {
+  background-color: #ece2da!important;
+}
+
+.page-id-21 #site-footer .bottles-planty {
+  display: none;
 }

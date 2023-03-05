@@ -23,11 +23,13 @@ Version: 2.1.1676200264
         display: flex;
         flex-direction: column;
     }
+
     ul.menu {
         flex-direction: column;
         align-items: center;
         background-color: #dc9f96;
     }
+
     ul {
         padding-inline-start: 0;
     }
@@ -57,9 +59,11 @@ Version: 2.1.1676200264
     p.has-text-align-center.color-second-title {
         font-size: 80%!important;
     }
+
     p.has-text-align-center.font-first-text {
         font-size: 80%;
     }
+
     h3.has-text-align-center.font-second-title {
         font-size: 90%!important;
     }
@@ -97,6 +101,8 @@ Version: 2.1.1676200264
       flex-direction: column;
     }
 
+    /* Contact page */
+
     .flower-pic, .second-flower-contact, .branch-pic {
       display: none;
     }
@@ -116,6 +122,12 @@ Version: 2.1.1676200264
     .first-wide-block-contact {
       padding-top: 0!important;
     }
+
+    .text-footer {
+      margin-right: 0!important;
+    }
+
+    /* Order page */
 
     .order-font-raspberry {
       margin-left: 12%;
@@ -173,7 +185,6 @@ li.menu-item a {
     color: black;
     text-decoration: none;
 }
-
 
 ul.menu {
     list-style: none;
@@ -491,6 +502,8 @@ p.font-comments {
   flex-direction: column;
  }
 
+ /* Contact form */
+
  .form-contact {
     display: flex;
     justify-content: center;
@@ -689,11 +702,19 @@ p.font-comments {
    display: flex!important;
  }
 
-@media (max-width: 600px) { .col-6 { width: 100%; } }
+@media (max-width: 600px) { 
+ .col-6 { 
+   width: 100%; 
+ } 
+}
 
-input[type=“text”], input[type=“email”] { width: 100%; }
+input[type=“text”], input[type=“email”] { 
+   width: 100%; 
+}
 
-input[type=“submit”] { margin-top: 20px; }
+input[type=“submit”] { 
+   margin-top: 20px; 
+}
  
 
 /* Order quantity form */
@@ -807,7 +828,7 @@ body #fbuilder .small {
 
 .text-footer {
   background-color: white;
-  padding-top: 20px;
+  margin-right: 2em;
 }
 
 .footer-custom {
@@ -823,6 +844,7 @@ body #fbuilder .small {
   background-color: #ece2da!important;
 }
 
-.page-id-21 #site-footer .bottles-planty {
+.page-id-21 #site-footer .bottles-planty, .footer-top {
   display: none;
 }
+

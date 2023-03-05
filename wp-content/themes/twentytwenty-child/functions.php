@@ -7,7 +7,7 @@ register_nav_menus( array(
 	'footer' => 'Bas de page',
 ) );
 
-// Ajout d'une fonction pour afficher le lien Admin lorsque l'utilisateur est connecté
+// Ajout du Hook pour afficher le lien Admin lorsque l'utilisateur est connecté
 
 function add_admin_to_menu( $items, $args ) {
     if ( is_user_logged_in() && $args->theme_location == 'main' ) {

@@ -5,9 +5,9 @@
    <div class="text-footer">
       <?php 
       wp_nav_menu( array(
-         'theme_location' => 'footer', // Le nom de l'emplacement du menu
-         'container' => false, // Supprimer le conteneur de menu par défaut
-         'menu_class' => 'footer-menu', // Ajouter une classe CSS au menu
+         'theme_location' => 'footer', 
+         'container' => false, 
+         'menu_class' => 'footer-menu', 
       ) ); 
       ?>
    </div>

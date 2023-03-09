@@ -349,7 +349,7 @@ if(window.CHARSCOUNTER==undefined){lib.CHARSCOUNTER=lib.charscounter=function(te
 if(window.INTEXT==undefined){lib.INTEXT=lib.intext=function(term,text,case_insensitive){try{var case_insensitive=case_insensitive||0;if(!term instanceof RegExp)term+='';text+='';if(case_insensitive){if(term instanceof RegExp)term=new RegExp(term.source,'i');else term=term.toLowerCase();text=text.toLowerCase();}
 return Math.max(text.split(term).length-1,0);}catch(err){return 0;}}}
 root.CF_TEXT=lib;})(this);fbuilderjQuery=(typeof fbuilderjQuery!='undefined')?fbuilderjQuery:jQuery;fbuilderjQuery['fbuilder']=fbuilderjQuery['fbuilder']||{};fbuilderjQuery['fbuilder']['modules']=fbuilderjQuery['fbuilder']['modules']||{};fbuilderjQuery['fbuilder']['modules']['text']={'prefix':'','callback':function()
-{fbuilderjQuery['fbuilder']['extend_window'](fbuilderjQuery['fbuilder']['modules']['text']['prefix'],CF_TEXT);}};$.fbuilder['version']='1.1.153';$.fbuilder['controls']=$.fbuilder['controls']||{};$.fbuilder['forms']=$.fbuilder['forms']||{};$.fbuilder['htmlEncode']=window['cff_esc_attr']=function(value)
+{fbuilderjQuery['fbuilder']['extend_window'](fbuilderjQuery['fbuilder']['modules']['text']['prefix'],CF_TEXT);}};$.fbuilder['version']='1.1.154';$.fbuilder['controls']=$.fbuilder['controls']||{};$.fbuilder['forms']=$.fbuilder['forms']||{};$.fbuilder['htmlEncode']=window['cff_esc_attr']=function(value)
 {return $('<div/>').text(value).html().replace(/"/g,"&quot;").replace(/&amp;lt;/g,'&lt;').replace(/&amp;gt;/g,'&gt;');};$.fbuilder['htmlDecode']=window['cff_html_decode']=function(value)
 {return(/&(?:#x[a-f0-9]+|#[0-9]+|[a-z0-9]+);?/ig.test(value))?$('<div/>').html(value).text():value;};$.fbuilder['sanitize']=window['cff_sanitize']=function(value)
 {if(typeof value=='string')

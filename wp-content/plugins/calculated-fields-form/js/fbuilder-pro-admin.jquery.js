@@ -1,8 +1,34 @@
 	$.fbuilder[ 'typeList' ] = [];
 	$.fbuilder[ 'categoryList' ] = [];
 	$.fbuilder[ 'controls' ] = {};
+	$.fbuilder[ 'deletedFields' ] = {};
+
 	$.fbuilder[ 'displayedDuplicateContainerMessage' ] = false;
 	$.fbuilder[ 'duplicateContainerMessage' ] = 'Note: If the container field being duplicated includes calculated fields or fields with dependency rules, the equations and dependencies rules in the new fields are exactly the same equations and dependency rules than in the original fields.';
+
+	$.fbuilder[ 'intializeDeletedFields' ] = function(){
+		for(let i in $.fbuilder[ 'deletedFields' ] ) {
+			$.fbuilder['deletedFields'][i] = 0;
+		}
+	};
+
+	$.fbuilder[ 'checkDeletedFields' ] = function( v ){
+		let result = '', separator = '';
+		for(let i in $.fbuilder[ 'deletedFields' ] ) {
+			if( (new RegExp('\\b'+i+'\\b', 'i')).test(v) ) {
+				$.fbuilder['deletedFields'][i]++;
+				result += separator+i;
+				separator = ' | ';
+			}
+		}
+		return result != '' ? ' [' + result + ']' : '';
+	};
+
+	$.fbuilder[ 'purgeDeletedFields' ] = function(){
+		for(let i in $.fbuilder[ 'deletedFields' ] ) {
+			if( ! $.fbuilder['deletedFields'][i] ) delete $.fbuilder['deletedFields'][i];
+		}
+	};
 
 	$.fbuilder[ 'preview' ] = function( e )
 	{
@@ -172,6 +198,7 @@
 
 		$.fbuilder[ 'removeItem' ] = function( index )
 			{
+				$.fbuilder['deletedFields'][items[ index ]['name']] = 0;
 				if( typeof items[ index ][ 'remove' ] != 'undefined' ) items[ index ][ 'remove' ]();
 				items[ index ] = 0;
 				selected = -2;
@@ -520,6 +547,8 @@
 					replaceTitleDescTags();
 					$("#fieldlist").html("");
 					fieldsIndex = {};
+
+					$.fbuilder[ 'intializeDeletedFields' ]();
 					for ( var i=0, h = items.length; i < h; i++ )
 					{
 						var item = items[i];
@@ -565,6 +594,7 @@
                             interval_fields_str += '<option value="'+cff_esc_attr(item.name)+'" '+( ( item.name == paypal_price_field ) ? "selected" : "" )+'>'+cff_esc_attr(cff_sanitize(item.title))+'</option>';
 						}
 					}
+					$.fbuilder[ 'purgeDeletedFields' ]();
 
 					// Assign the email fields to the "cu_user_email_field" list
 					$('#cu_user_email_field').html(email_str);

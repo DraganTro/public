@@ -121,6 +121,8 @@
 .cff-active-column{border:1px solid #0073aa; padding:5px;display:inline-block;}
 #fbuilder{height:640px;overflow:auto;position:relative;display:flex;flex-flow:column;}
 #fbuilder .fields{border:1px solid transparent;padding:3px 10px 14px 10px;margin:5px 0px;display:block;position:relative;}
+#fbuilder .fields.cff-error{border-color:#FF0000 !important;}
+#fbuilder .fields.cff-error::before{background-color:#FFF !important;border-color:#FF0000 !important; color:#FF0000 !important;}
 #fbuilder .fields:before {content: attr(title); background-color:#FFF1A0;text-shadow: 1px 1px 0px rgba(255, 255, 255, .4); padding:3px 5px; margin:0 5px 5px 0; display:table;border: 1px solid rgba(0,0,0,.2);}
 #fbuilder .ftext:before{background-color:rgba(212,187,221,0.7);}
 #fbuilder .fcurrency:before{background-color:rgba(253,209,210,0.7);}

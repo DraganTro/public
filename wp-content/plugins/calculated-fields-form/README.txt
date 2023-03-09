@@ -4,7 +4,7 @@ Donate link: http://cff.dwbooster.com
 Tags: form,quote form,contact form,form builder,calculator,calculated,quote calculator,forms,form editor,advanced forms,payment calculator,payment,recurring payment,quote,fields,calculated field,price calculator,email,form design,paypal,equation editor,formula,equation,quote calculator,post,posts,plugin,widget,admin,sidebar,images,image,page,shortcode,products form,woocommerce,addons,layout,session,post,cookie,get,webhook,Dropbox,pdf,language
 Requires at least: 3.0.5
 Tested up to: 6.1
-Stable tag: 1.1.153
+Stable tag: 1.1.154
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -979,6 +979,11 @@ A: Please, follow the steps below:
 
 == Changelog ==
 
+= 1.1.154 =
+
+* Identify equations affected by deleted fields rather than waiting for equations to fail on the public website.
+* Supports new tags in the notification emails and thank you pages to get the uploaded files paths and not only their URLs (Professional, Developer, and Platinum versions of the plugin).
+
 = 1.1.153 =
 
 * Implements the ELEMENTINFO operation in the Managing Fields module to access the values, texts, or HTMLs of any elements in the page based on selectors.
@@ -1027,10 +1032,3 @@ A: Please, follow the steps below:
 = 1.1.144 =
 
 * Includes a new form template to calculate the maximum area of irregular polygons.
-
-= 1.1.143 =
-
-* Modifies the phone control to allow selecting its size.
-* Improves the integration with SiteGround Optimizer.
-* Implements the PayPal Checkout integration (Platinum plugin version).
-* Improves the Stripe add-on (Platinum plugin version).

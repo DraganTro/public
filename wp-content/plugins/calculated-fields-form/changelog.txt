@@ -1,5 +1,10 @@
 == Changelog ==
 
+= 1.1.154 =
+
+* Identify equations affected by deleted fields rather than waiting for equations to fail on the public website.
+* Supports new tags in the notification emails and thank you pages to get the uploaded files paths and not only their URLs (Professional, Developer, and Platinum versions of the plugin).
+
 = 1.1.153 =
 
 * Implements the ELEMENTINFO operation in the Managing Fields module to access the values, texts, or HTMLs of any elements in the page based on selectors.
